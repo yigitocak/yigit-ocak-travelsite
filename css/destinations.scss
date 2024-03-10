@@ -1,0 +1,71 @@
+@use './partials/global' as *;
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+
+  &__title {
+    position: absolute;
+    top: 2rem;
+    left: 7.5rem;
+    font-size: 5.7rem;
+    color: white;
+    margin-top: 0;
+
+  }
+
+  &__greece, &__iceland, &__hawaii {
+    height: 54.375rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    position: relative;
+  }
+
+  &__greece {
+    background-image: url("../assets/images/greece.jpg");
+  }
+
+  &__iceland {
+    background-image: url("../assets/images/iceland.jpg");
+  }
+
+  &__hawaii{
+    background-image: url("../assets/images/hawaii.jpg");
+  }
+
+  &__card{
+    width: 21.25rem;
+    height: 31.563rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-title {
+      text-align: center;
+      width: 18.125rem;
+      border-bottom: 3px solid black;
+      margin-bottom: 1rem;
+    }
+
+    &-content {
+      background-color: #FEFAF5;
+      width: 18.125rem;
+      height: 3.75rem;
+      font-size: 1.3rem;
+      margin-bottom: 0;
+      padding-top: 1rem;
+    }
+  }
+}
