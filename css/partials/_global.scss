@@ -19,6 +19,7 @@ h1 {
     align-items: center;
     height: 4.5rem;
     padding: 0 7.8rem;
+    background-color: #FFFFFF;
 
     &__title {
         text-decoration: none;
@@ -50,21 +51,19 @@ h1 {
     height: 15.313rem;
     background-color: #FEFAF5;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 7rem;
     align-items: flex-start;
     color: #335576;
     padding-top: 2rem;
 
-    &__hours {
-        display: flex;
-        flex-direction: column;
-        width: 33.75rem;
-        height: 8.4rem;
+    &__contact, &__hours, &__social, {
+        height: 6.875rem;
+        width: 11.25rem;
+    }
 
-        &-container {
-            display: flex;
-            justify-content: space-between;
-        }
+    &__title {
+        font-size: 1.8rem;
     }
 
     &__info {
@@ -72,18 +71,26 @@ h1 {
         color: #DB7A4E;
     }
 
-    &__social {
-        height: 7.5rem;
+    &__time {
+        font-size: 1.1rem;
     }
 
-    &__title {
-        font-size: 1.8rem;
+    &__hours {
+        display: flex;
+        flex-direction: column;
+        width: 33.75rem;
+
+        &-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: -0.8rem;
+        }
     }
 
     &__image {
         display: flex;
         justify-content: space-between;
-        margin-top: 3.5rem;
+        margin-top: 3.3rem;
         height: 2rem;
         width: 10.313rem;
     }

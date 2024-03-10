@@ -6,16 +6,6 @@
   justify-content: center;
   position: relative;
 
-  &__title {
-    position: absolute;
-    top: 2rem;
-    left: 7.5rem;
-    font-size: 5.7rem;
-    color: white;
-    margin-top: 0;
-
-  }
-
   &__greece, &__iceland, &__hawaii {
     height: 54.375rem;
     background-position: center;
@@ -41,6 +31,16 @@
     background-image: url("../assets/images/hawaii.jpg");
   }
 
+  &__title {
+    position: absolute;
+    top: 2rem;
+    left: 7.5rem;
+    font-size: 5.7rem;
+    color: white;
+    margin-top: 0;
+
+  }
+
   &__card{
     width: 21.25rem;
     height: 31.563rem;
@@ -51,21 +51,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
 
-    &-title {
-      text-align: center;
-      width: 18.125rem;
-      border-bottom: 3px solid black;
-      margin-bottom: 1rem;
-    }
+  &__day {
+    text-align: center;
+    width: 18.125rem;
+    border-bottom: 3px solid black;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
 
-    &-content {
-      background-color: #FEFAF5;
-      width: 18.125rem;
-      height: 3.75rem;
-      font-size: 1.3rem;
-      margin-bottom: 0;
-      padding-top: 1rem;
-    }
+  &__ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__li {
+    background-color: #FEFAF5;
+    width: 18.125rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+    padding-top: 1rem;
   }
 }

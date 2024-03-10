@@ -19,6 +19,7 @@ h1 {
   align-items: center;
   height: 4.5rem;
   padding: 0 7.8rem;
+  background-color: #FFFFFF;
 }
 .nav__title {
   text-decoration: none;
@@ -45,35 +46,40 @@ h1 {
   height: 15.313rem;
   background-color: #FEFAF5;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 7rem;
   align-items: flex-start;
   color: #335576;
   padding-top: 2rem;
 }
-.footer__hours {
-  display: flex;
-  flex-direction: column;
-  width: 33.75rem;
-  height: 8.4rem;
+.footer__contact, .footer__hours, .footer__social {
+  height: 6.875rem;
+  width: 11.25rem;
 }
-.footer__hours-container {
-  display: flex;
-  justify-content: space-between;
+.footer__title {
+  font-size: 1.8rem;
 }
 .footer__info {
   font-size: 0.8rem;
   color: #DB7A4E;
 }
-.footer__social {
-  height: 7.5rem;
+.footer__time {
+  font-size: 1.1rem;
 }
-.footer__title {
-  font-size: 1.8rem;
+.footer__hours {
+  display: flex;
+  flex-direction: column;
+  width: 33.75rem;
+}
+.footer__hours-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -0.8rem;
 }
 .footer__image {
   display: flex;
   justify-content: space-between;
-  margin-top: 3.5rem;
+  margin-top: 3.3rem;
   height: 2rem;
   width: 10.313rem;
 }
@@ -83,14 +89,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   position: relative;
-}
-.main__title {
-  position: absolute;
-  top: 2rem;
-  left: 7.5rem;
-  font-size: 5.7rem;
-  color: white;
-  margin-top: 0;
 }
 .main__greece, .main__iceland, .main__hawaii {
   height: 54.375rem;
@@ -113,6 +111,14 @@ h1 {
 .main__hawaii {
   background-image: url("../assets/images/hawaii.jpg");
 }
+.main__title {
+  position: absolute;
+  top: 2rem;
+  left: 7.5rem;
+  font-size: 5.7rem;
+  color: white;
+  margin-top: 0;
+}
 .main__card {
   width: 21.25rem;
   height: 31.563rem;
@@ -124,18 +130,23 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
-.main__card-title {
+.main__day {
   text-align: center;
   width: 18.125rem;
   border-bottom: 3px solid black;
   margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
-.main__card-content {
+.main__ul {
+  list-style: none;
+  padding: 0;
+}
+.main__li {
   background-color: #FEFAF5;
   width: 18.125rem;
-  height: 3.75rem;
+  height: 4rem;
   font-size: 1.3rem;
-  margin-bottom: 0;
+  margin-bottom: 1.3rem;
   padding-top: 1rem;
 }
 

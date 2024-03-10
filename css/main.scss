@@ -47,6 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 3rem;
   }
 
   &__card {
@@ -55,7 +56,6 @@
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-    margin: 0 1.5rem;
     color: white;
     position: relative;
 
