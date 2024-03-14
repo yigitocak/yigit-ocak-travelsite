@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
+  padding-top: 4.5rem;
 
   &__greece, &__iceland, &__hawaii {
     height: 54.375rem;
@@ -38,7 +39,6 @@
     font-size: 5.7rem;
     color: white;
     margin-top: 0;
-
   }
 
   &__card{

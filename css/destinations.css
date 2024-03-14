@@ -20,6 +20,11 @@ h1 {
   height: 4.5rem;
   padding: 0 7.8rem;
   background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
 }
 .nav__title {
   text-decoration: none;
@@ -89,6 +94,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   position: relative;
+  padding-top: 4.5rem;
 }
 .main__greece, .main__iceland, .main__hawaii {
   height: 54.375rem;
